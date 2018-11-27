@@ -27,4 +27,7 @@ repositories {
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	compile("org.springframework.boot:spring-boot-starter-activemq")
+	compile("org.apache.activemq:activemq-broker")
+	compile("com.fasterxml.jackson.core:jackson-databind")
 }

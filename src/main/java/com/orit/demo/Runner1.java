@@ -18,7 +18,7 @@ public class Runner1 {
     @Scheduled(fixedDelay = 1000)
     void count() {
         this.job.counter();
-        Log.info("### RunnerOne: count: " + this.job.getCount());
+        //Log.info("### RunnerOne: count: " + this.job.getCount());
     }
 
 }
